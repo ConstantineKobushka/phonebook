@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 270px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+.label {
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+}
+.input {
+  color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 480px) {
+  .wrapper {
+    max-width: 375px;
+  }
+}
